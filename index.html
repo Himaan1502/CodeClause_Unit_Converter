@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unit Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Unit Converter</h1>
+  </header>
+
+  <main>
+    <div class="converter">
+      <input type="number" id="value-input" placeholder="Value">
+      <select id="from-unit">
+        <option value="cm">Centimeters</option>
+        <option value="m">Meters</option>
+        <option value="in">Inches</option>
+        <option value="kg">Kilograms</option>
+        <option value="lb">Pounds</option>
+        <option value="oz">Ounces</option>
+      </select>
+      <select id="to-unit">
+        <option value="cm">Centimeters</option>
+        <option value="m">Meters</option>
+        <option value="in">Inches</option>
+        <option value="kg">Kilograms</option>
+        <option value="lb">Pounds</option>
+        <option value="oz">Ounces</option>
+      </select>
+      <button id="convert-btn">Convert</button>
+    </div>
+    <div class="result">
+      <p id="result-value"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
